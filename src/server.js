@@ -2,7 +2,7 @@ const fs = require('fs');
 const http = require('http');
 const path = require('path');
 const url = require('url');
-const replaceTemplate = require('../modules.js/replaceTemplate.js');
+const replaceTemplate = require('../modules/replaceTemplate.js');
 
 const data = fs.readFileSync(`${__dirname}/../data/data.json`, 'utf8');
 const tempOverview = fs.readFileSync(`${__dirname}/../templates/template-overview.html`, 'utf8');
